@@ -1,6 +1,7 @@
 name: 'Deploy'
 on:
-  push: [ $default-branch ]
+  push:
+    branches: [ $default-branch ]
 pull_request:
 
 permissions:
